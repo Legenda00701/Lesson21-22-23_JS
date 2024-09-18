@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Lesson21-22-23_JS.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+//1
+
+// let str = "Time to level up!";
+// let reversedStr = "";  
+// let i = str.length - 1;
+
+// while(i >= 0){
+//     reversedStr += str[i]; 
+//     i--; 
+// }
+// console.log(reversedStr); 
+
+
+//2
+
+// let numbers = [5, 2, 9, 1, 6, -3, 8]; 
+// let i = 1;
+// let min = numbers[0];
+
+// while(i < numbers.length){
+//     if(numbers[i] < min){
+//         min = numbers[i];
+//     }
+//     i++;
+// }
+// console.log("Наименьшее число:", min);
+
+
+//3
+
+// let str = prompt("Напешите что-нибудь на английском: ");
+// let vowels = "aeiouAEIOU";
+// let count = 0;  
+// let i = 0; 
+
+// while(i < str.length){
+//     if(vowels.includes(str[i])){ 
+//         count++;
+//     }
+//     i++;
+// }
+// console.log("Количество гласных:", count);
+
+
+//4
+
+// let array1 = [1, 2, 3];
+// let array2 = [4, 5, 6];
+// let combinedArray = []; 
+// let i = 0; 
+// let j = 0;
+
+// while(i < array1.length){
+//     combinedArray.push(array1[i]);
+//     i++; 
+// }
+
+// while(j < array2.length){
+//     combinedArray.push(array2[j]);  
+//     j++; 
+// }
+// console.log("Объединенный массив:", combinedArray);
+
+
+//5
+
+// let array = [1, 2, 2, 3, 4, 4, 5, 6, 6, 7, 7, 7];  
+// let uniqueArray = [];  
+// let i = 0;  
+
+// while(i < array.length){
+//     if(!uniqueArray.includes(array[i])){  
+//         uniqueArray.push(array[i]); 
+//     }
+//     i++;
+// }
+// console.log("Массив без дубликатов:", uniqueArray);
+
+
+//6
+
+// let array = [1, 2, 3, 2, 1];
+// let isPalindrome = true;
+// let i = 0;
+// let j = array.length - 1;
+
+// while(i < j){
+//     if(array[i] !== array[j]){
+//         isPalindrome = false;
+//         break;
+//     }
+//     i++;
+//     j--;
+// }
+// console.log("Массив является палиндромом:", isPalindrome);
+
+
+//7
+
+// let str = prompt("Ваше слово: ");
+// let isPalindrome = true;  
+// let i = 0;
+// let j = str.length - 1;
+
+// while(i < j){
+//     if(str[i] !== str[j]){
+//         isPalindrome = false;
+//         break;
+//     }
+//     i++;
+//     j--;
+// }
+// console.log("Строка является палиндромом:", isPalindrome);
+
+
+//8
+
+// let str = prompt("Напешите предложение: ");
+// let count = 0;
+// let i = 0;
+// let inWord = false;
+
+// while(i < str.length){
+//     if(str[i] !== ' ' && str[i] !== ',' && str[i] !== '?' && str[i] !== '!'){
+//         if(!inWord){
+//             count++; 
+//             inWord = true;
+//         }
+//     } else{
+//         inWord = false;
+//     }
+//     i++;
+// }
+// console.log("Количество слов в строке:", count);
+
+
+//9
+
+// let start = 7;
+// let end = 98;
+// let step = 7;
+// let output = ''; 
+
+// while(start <= end){
+//     output += start + ' ';
+//     start += step; 
+// }
+// console.log(output);
+
+
+//10
+
+// let N = prompt("Введите значение N:");  
+// N = Number(N);  
+// let powerOfTwo = 2; 
+
+// while(powerOfTwo * 2 <= N){
+//     powerOfTwo *= 2; 
+// }
+// console.log("Самая большая степень двойки, не превосходящая N:", powerOfTwo);  
+
+
+</script>
+</body>
+</html>
